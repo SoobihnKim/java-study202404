@@ -37,6 +37,19 @@ public class DataType {
         System.out.println(x + a);
         System.out.println( b * x);
 
+        // 문자형 char: 2byte 0 ~ 65536 (음수표현할 필요 없어서 2배)
+        char text = 'a';
+        char text1 = '가';
+        char text2 = 65; //  유니코드
+        System.out.println("text2 = " + text2); // A
+
+        char text3 = 41132;
+        System.out.println("text3 = " + text3);
+        
+        //  문자열: 문자 배열
+
+        char[] hello = {'안', '녕', '하', '세', '요'};
+        System.out.println("new String(hello) = " + new String(hello));
 
     }
 }

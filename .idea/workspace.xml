@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# Variable">
-      <change afterPath="$PROJECT_DIR$/src/day01/DataType.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 데이터 타입">
+      <change afterPath="$PROJECT_DIR$/src/day01/TypeCasting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/DataType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +74,11 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.콘솔 글꼴",
     "애플리케이션.DataType.executor": "Run",
     "애플리케이션.Main.executor": "Run",
+    "애플리케이션.TypeCasting.executor": "Run",
     "애플리케이션.Variable.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.DataType">
+  <component name="RunManager" selected="애플리케이션.TypeCasting">
     <configuration name="DataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01.DataType" />
       <module name="java-study202404" />
@@ -97,6 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01.TypeCasting" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01.Variable" />
       <module name="java-study202404" />
@@ -112,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.TypeCasting" />
         <item itemvalue="애플리케이션.DataType" />
         <item itemvalue="애플리케이션.Variable" />
         <item itemvalue="애플리케이션.Main" />
@@ -184,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712284521908</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="# 데이터 타입">
+      <option name="closed" value="true" />
+      <created>1712286209792</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712286209792</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +228,7 @@
     <MESSAGE value="# commit" />
     <MESSAGE value="# java 기초" />
     <MESSAGE value="# Variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Variable" />
+    <MESSAGE value="# 데이터 타입" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 데이터 타입" />
   </component>
 </project>
