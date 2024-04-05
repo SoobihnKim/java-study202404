@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 데이터 타입">
-      <change afterPath="$PROJECT_DIR$/src/day01/TypeCasting.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 형변환">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/DataType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712286209792</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="# 형변환">
+      <option name="closed" value="true" />
+      <created>1712289016908</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712289016908</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +235,7 @@
     <MESSAGE value="# java 기초" />
     <MESSAGE value="# Variable" />
     <MESSAGE value="# 데이터 타입" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 데이터 타입" />
+    <MESSAGE value="# 형변환" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 형변환" />
   </component>
 </project>
