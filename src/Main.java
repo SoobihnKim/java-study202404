@@ -14,5 +14,10 @@ public class Main {
         System.out.printf("%d월 %d일은 %s입니다. \n", month, day, anni); //printf 줄바꿈 안해줌
         System.out.printf("%d월 %d일은 %s입니다.", month, day, anni); //ctrl + d
         System.out.printf("%d월 %d일은 %s입니다.", month, day, anni); //ctrl + x 잘라내기
+
+        int x = 10, y = 20;
+
+        System.out.println(x > 10 && (y / 0 == 10)); //false
+        System.out.println(x > 10 || y < 30); //true
     }
 }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 형 변환" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 형 변환">
+      <change afterPath="$PROJECT_DIR$/src/day01/RandomExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/TypeCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/TypeCasting.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,28 +30,28 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SoobihnKim"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SoobihnKim&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SoobihnKim/java-study202404.git",
-    "accountId": "e194b39d-93ff-4aaa-9a3a-e2d20a3ce74c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SoobihnKim/java-study202404.git&quot;,
+    &quot;accountId&quot;: &quot;e194b39d-93ff-4aaa-9a3a-e2d20a3ce74c&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "SoobihnKim",
-    "repository": "java-study202404"
+    &quot;owner&quot;: &quot;SoobihnKim&quot;,
+    &quot;repository&quot;: &quot;java-study202404&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -70,11 +75,12 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.콘솔 글꼴",
     "애플리케이션.DataType.executor": "Run",
     "애플리케이션.Main.executor": "Run",
+    "애플리케이션.RandomExample.executor": "Run",
     "애플리케이션.TypeCasting.executor": "Run",
     "애플리케이션.Variable.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.TypeCasting">
+  <component name="RunManager" selected="애플리케이션.RandomExample">
     <configuration name="DataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01.DataType" />
       <module name="java-study202404" />
@@ -91,6 +97,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java-study202404" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01.RandomExample" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.RandomExample" />
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.TypeCasting" />
         <item itemvalue="애플리케이션.DataType" />
         <item itemvalue="애플리케이션.Variable" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712289643264</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="# 형 변환">
+      <option name="closed" value="true" />
+      <created>1712307868003</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712307868003</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
