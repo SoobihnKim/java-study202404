@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 표준출력, 배열">
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPush.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 배열복사, push, pop">
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/ArrayDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayDelete.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.콘솔 글꼴",
     "애플리케이션.ArrayBasic.executor": "Run",
     "애플리케이션.ArrayCopy.executor": "Run",
+    "애플리케이션.ArrayDelete.executor": "Run",
     "애플리케이션.ArrayPop.executor": "Run",
     "애플리케이션.ArrayPush.executor": "Run",
     "애플리케이션.DataType.executor": "Run",
@@ -86,7 +86,7 @@
     "애플리케이션.Variable.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.ArrayPop">
+  <component name="RunManager" selected="애플리케이션.ArrayDelete">
     <configuration name="ArrayBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day02.ArrayBasic" />
       <module name="java-study202404" />
@@ -102,6 +102,19 @@
     </configuration>
     <configuration name="ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day02.ArrayCopy" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.ArrayDelete" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
@@ -139,26 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ScannerPractice" />
-      <module name="java-study202404" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ArrayDelete" />
         <item itemvalue="애플리케이션.ArrayPop" />
         <item itemvalue="애플리케이션.ArrayPush" />
         <item itemvalue="애플리케이션.ArrayCopy" />
         <item itemvalue="애플리케이션.ArrayBasic" />
-        <item itemvalue="애플리케이션.ScannerPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712542031491</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="# 배열복사, push, pop">
+      <option name="closed" value="true" />
+      <created>1712544731611</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712544731611</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +308,7 @@
     <MESSAGE value="# 형 변환" />
     <MESSAGE value="# 연산" />
     <MESSAGE value="# 표준출력, 배열" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 표준출력, 배열" />
+    <MESSAGE value="# 배열복사, push, pop" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 배열복사, push, pop" />
   </component>
 </project>
