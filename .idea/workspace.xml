@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 배열 알고리즘">
-      <change afterPath="$PROJECT_DIR$/src/day03/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/ArrayQuiz03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz03.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 2차원 배열">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/Matrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712626428373</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="# 2차원 배열">
+      <option name="closed" value="true" />
+      <created>1712627076723</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712627076723</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,7 +358,8 @@
     <MESSAGE value="# 배열 퀴즈" />
     <MESSAGE value="# 배열 퀴즈 풀이" />
     <MESSAGE value="# 배열 알고리즘" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 배열 알고리즘" />
+    <MESSAGE value="# 2차원 배열" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 2차원 배열" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
