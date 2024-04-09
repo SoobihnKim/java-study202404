@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 배열 퀴즈">
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/ArraySearch.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 배열 퀴즈 풀이">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/ArrayQuiz01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/ArrayQuiz02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/ArrayInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/ArrayQuiz03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayQuiz03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +75,7 @@
     "애플리케이션.ArrayBasic.executor": "Run",
     "애플리케이션.ArrayCopy.executor": "Run",
     "애플리케이션.ArrayDelete.executor": "Run",
+    "애플리케이션.ArrayInsert.executor": "Run",
     "애플리케이션.ArrayPop.executor": "Run",
     "애플리케이션.ArrayPush.executor": "Run",
     "애플리케이션.ArrayQuiz01.executor": "Run",
@@ -93,9 +91,9 @@
     "애플리케이션.Variable.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.ArrayQuiz03">
-    <configuration name="ArrayDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.ArrayDelete" />
+  <component name="RunManager" selected="애플리케이션.ArrayInsert">
+    <configuration name="ArrayInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.ArrayInsert" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ArrayInsert" />
         <item itemvalue="애플리케이션.ArrayQuiz03" />
         <item itemvalue="애플리케이션.ArraySearch" />
         <item itemvalue="애플리케이션.ArrayQuiz01" />
         <item itemvalue="애플리케이션.ArrayQuiz02" />
-        <item itemvalue="애플리케이션.ArrayDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712552228101</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="# 배열 퀴즈 풀이">
+      <option name="closed" value="true" />
+      <created>1712625562163</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712625562163</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,6 +340,22 @@
     <MESSAGE value="# 배열복사, push, pop" />
     <MESSAGE value="# 배열 인덱스 삭제" />
     <MESSAGE value="# 배열 퀴즈" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 배열 퀴즈" />
+    <MESSAGE value="# 배열 퀴즈 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 배열 퀴즈 풀이" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day02/ArrayInsert.java</url>
+          <line>6</line>
+          <properties class="day02.ArrayInsert" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
