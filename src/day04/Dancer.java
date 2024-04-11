@@ -61,6 +61,7 @@ public class Dancer {
         dancerName = dName;
         crewName = cName;
         genre = gName;
-        danceLevel = 2;
+        danceLevel = 1;
     }
+
 }
