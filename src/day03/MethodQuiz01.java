@@ -12,56 +12,85 @@ public class MethodQuiz01 {
         System.out.println(Arrays.toString(foods));
     }
 
-    static void push(String newFood) {
-        String[] temp = new String[foods.length + 1];
+    // 사이즈를 조절해서 새 배열을 만드는 함수
+    static String[] makeNewArray(int size) {
+        return new String[foods.length + size];
+    }
+    // 기존 데이터를 복사하는 함수
+    static String[] copy (int size) {
+//        String[] temp = new String[foods.length + size];
+        String[] temp = makeNewArray(size);
 
-        for (int i = 0; i < foods.length; i++) {
+        int loopCount = (size >= 0) ? foods.length : temp.length;
+
+        for (int i = 0; i < loopCount; i++) {
             temp[i] = foods[i];
         }
-        temp[temp.length - 1] = newFood;
-
-        foods = temp;
-        temp = null;
+        return temp;
     }
 
+    // foods 배열에 데이터를 끝에 추가하는 함수
+    static void push(String newFood) {
+//        String[] temp = new String[foods.length + 1];
+//        for (int i = 0; i < foods.length; i++) {
+//            temp[i] = foods[i];
+//        }
+        String[] temp = copy(1);
+        temp[temp.length - 1] = newFood;
+        foods = temp;
+        temp = null; // 자동으로 지워짐(안써도됨)
+    }
+
+    // foods 배열에서 특정 데이터의 인덱스를 반환
     static int indexOf(String target) {
         int index = -1;
         for (int i = 0; i < foods.length; i++) {
             if(target.equals(foods[i])) {
-                index = i;
-                break;
-            }
-        }
-        return index;
-    }
-
-//    static void remove (String target) {
-//        int index = -1;
-//        for (int i = 0; i < foods.length; i++) {
-//            if(target.equals(foods[i])) {
+                return i;
 //                index = i;
 //                break;
-//            }
-//        }
-//        if (index != -1) {
-//            // 삭제 알고리즘
-//            for (int i = index; i < foods.length - 1; i++) {
-//                foods[i] = foods[i + 1];
-//            }
-//            String[] temp = new String[foods.length - 1];
-//
-//            for (int i = 0; i < foods.length - 1; i++) {
-//                temp[i] = foods[i];
-//            }
-//            foods = temp;
-//            temp = null;
-//    }
+            }
+        }
+        return -1;
+    }
 
-//    static boolean include() {}
-//    static String insert() {}
-//    static String modify(){
-//
-//    }
+    // foods 배열에서 맨 끝 데이터를 삭제하는 함수
+    static void pop(){
+        foods = copy(-1);
+    }
+
+    static void remove(String deleteTarget){
+        int index = indexOf(deleteTarget);
+        if(index == -1) return;
+
+        for (int i = index; i < foods.length - 1; i++) {
+            foods[i] = foods[i + 1];
+        }
+        pop();
+    }
+
+    static boolean include(String searchTarget) {
+        return indexOf(searchTarget) != -1;
+    }
+
+    static void insert(int targetIndex, String newFoodName) {
+        if (isOutOfBounds(targetIndex)) return;
+        String[] temp = copy(1);
+        for (int i = temp.length-1; i > targetIndex; i--) {
+            temp[i] = temp[i -1];
+        }
+        temp[targetIndex] = newFoodName;
+        foods = temp;
+    }
+
+    static boolean isOutOfBounds(int targetIndex) {
+        return targetIndex < 0 || targetIndex > foods.length - 1;
+    }
+
+    static void modify(int targetIndex, String newFoodName){
+        if(targetIndex < 0 || targetIndex > foods.length - 1) return;
+        foods[targetIndex] = newFoodName;
+    }
 
     public static void main(String[] args) {
 
@@ -77,22 +106,23 @@ public class MethodQuiz01 {
         int index2 = indexOf("라면땅");
         System.out.println("index2 = " + index2);
 
-//        remove("치킨");
-//        printFoods();
-//
-//
-//        boolean flag1 = include("파스타");
-//        System.out.println("flag1 = " + flag1);
-//
-//        boolean flag2 = include("떡라면");
-//        System.out.println("flag2 = " + flag2);
-//
-//        insert(3, "파인애플");
-//
-//        printFoods();
-//
-//        modify(2, "닭갈비");
-//        printFoods();
+//        pop();
+        remove("치킨");
+        printFoods();
+
+
+        boolean flag1 = include("파스타");
+        System.out.println("flag1 = " + flag1);
+
+        boolean flag2 = include("떡라면");
+        System.out.println("flag2 = " + flag2);
+
+        insert(3, "파인애플");
+
+        printFoods();
+
+        modify(2, "닭갈비");
+        printFoods();
 
 
     }}
