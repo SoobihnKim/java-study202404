@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 생성자, 필드와 지역변수">
-      <change afterPath="$PROJECT_DIR$/src/day04/StringCompare.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 문자열 비교">
+      <change afterPath="$PROJECT_DIR$/src/day05/ListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/StringList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "애플리케이션.ArrayBasic.executor": "Run",
     "애플리케이션.ArrayCopy.executor": "Run",
     "애플리케이션.ArrayDelete.executor": "Run",
@@ -86,6 +87,7 @@
     "애플리케이션.DancerMain.executor": "Run",
     "애플리케이션.DataType.executor": "Run",
     "애플리케이션.DogMain.executor": "Run",
+    "애플리케이션.ListMain.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.Matrix.executor": "Run",
     "애플리케이션.MethodBasic.executor": "Run",
@@ -97,7 +99,7 @@
     "애플리케이션.Variable.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StringCompare">
+  <component name="RunManager" selected="애플리케이션.ListMain">
     <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
       <module name="java-study202404" />
@@ -124,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.FieldMain" />
+    <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.ListMain" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,8 +167,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringCompare" />
-        <item itemvalue="Application.FieldMain" />
+        <item itemvalue="애플리케이션.ListMain" />
         <item itemvalue="애플리케이션.DogMain" />
         <item itemvalue="애플리케이션.DancerMain" />
         <item itemvalue="애플리케이션.MethodQuiz01" />
@@ -374,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712804395058</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="# 문자열 비교">
+      <option name="closed" value="true" />
+      <created>1712806841667</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712806841667</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,7 +419,8 @@
     <MESSAGE value="# method quiz 풀이" />
     <MESSAGE value="# 객체지향" />
     <MESSAGE value="# 생성자, 필드와 지역변수" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 생성자, 필드와 지역변수" />
+    <MESSAGE value="# 문자열 비교" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 문자열 비교" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
