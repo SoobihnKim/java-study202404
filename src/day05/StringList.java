@@ -1,4 +1,4 @@
-package day05;
+package day05; // 꼭 써야하고 이름도 같아야함
 
 import java.util.Arrays;
 
