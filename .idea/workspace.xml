@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# String 배열">
-      <change afterPath="$PROJECT_DIR$/src/day05/PackageMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/fruit/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/juice/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/juice/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/juice/Peach.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 패키지">
+      <change afterPath="$PROJECT_DIR$/src/day05/player/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/StringList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/StringList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.FieldMain.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.PackageMain.executor": "Run",
     "Application.StringCompare.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -104,7 +101,7 @@
     "애플리케이션.Variable.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PackageMain">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
       <module name="java-study202404" />
@@ -144,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodQuiz01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03.MethodQuiz01" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.player.Main" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day05.player.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PackageMain" />
         <item itemvalue="애플리케이션.ListMain" />
         <item itemvalue="애플리케이션.DogMain" />
         <item itemvalue="애플리케이션.DancerMain" />
-        <item itemvalue="애플리케이션.MethodQuiz01" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712884994976</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="# 패키지">
+      <option name="closed" value="true" />
+      <created>1712886691268</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712886691268</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +440,8 @@
     <MESSAGE value="# 생성자, 필드와 지역변수" />
     <MESSAGE value="# 문자열 비교" />
     <MESSAGE value="# String 배열" />
-    <option name="LAST_COMMIT_MESSAGE" value="# String 배열" />
+    <MESSAGE value="# 패키지" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 패키지" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
