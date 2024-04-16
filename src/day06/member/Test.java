@@ -21,5 +21,20 @@ public class Test {
         System.out.println("m2 = " + m2);
 
         Member[] members = {m1, m2};
+        System.out.println("============================");
+        for (Member m : members) {
+            System.out.println(m.memberName);
+        }
+
+        System.out.println("============================");
+
+        MemberRepository mr = new MemberRepository();
+
+        MemberView mv = new MemberView();
+
+        Member newMember = new Member("ddd@fff.cpm", "4321", "찰떡이", "여성", 10);
+        mr.addNewMember(newMember);
+
+        mv.showMembers();
     }
 }
