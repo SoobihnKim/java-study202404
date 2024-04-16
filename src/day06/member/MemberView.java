@@ -27,10 +27,10 @@ public class MemberView {
         String email = null; // while 밖에서도 써야하니 이렇게 처리
         while (true) {
             email = si.input(" - 이메일: ");
-            if(!mr.isDuplicateEmail(email)) {
+            if (!mr.isDuplicateEmail(email)) {
                 break;
             }
-                System.out.println("중복된 이메일입니다.");
+            System.out.println("중복된 이메일입니다.");
         }
 
         String name = si.input(" - 이름: ");
@@ -39,7 +39,7 @@ public class MemberView {
         int age = Integer.parseInt(si.input(" - 나이: "));
 
         // 입력 데이터를 기반으로 한 명의 회원 객체를 생성
-        Member newMember = new Member(email, password, name, gender,age);
+        Member newMember = new Member(email, password, name, gender, age);
 
         // 위임 - 관심사의 분리
         mr.addNewMember(newMember);
@@ -62,12 +62,30 @@ public class MemberView {
     // 프로그램 종료를 판단하는 입출력
     boolean exitProgram() {
         String exit = si.input("- 프로그램을 종료합니까? [y/n]\n>>");
-        if(exit.equals("y")) {
+        if (exit.equals("y")) {
             System.out.println("프로그램 종료합니다.");
             return true;
         } else {
             System.out.println("프로그램 종료를 취소합니다.");
             return false;
+        }
+    }
+
+    // 이메일 입력받고 찾은 회원정보를 출력
+    public void getMember() {
+        String inputEmail = si.input("# 조회하실 회원의 이메일을 입력하세요.\n>> ");
+
+        // 이메일이 일치하는 회원이 있는지 조회
+        Member foundMember = mr.findMemberByEmail(inputEmail);
+        if (foundMember != null) {
+            System.out.println(" ");
+            System.out.println("# 이름: " + foundMember.memberName);
+            System.out.println("# 비밀번호: " + foundMember.password);
+            System.out.println("# 성별: " + foundMember.gender);
+            System.out.println("# 나이: " + foundMember.age);
+            System.out.println();
+        } else {
+            System.out.println("\n# 해당 회원은 존재하지 않습니다.");
         }
     }
 }

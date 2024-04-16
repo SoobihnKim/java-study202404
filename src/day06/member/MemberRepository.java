@@ -49,4 +49,20 @@ public class MemberRepository {
         return false;
     }
 
+    /**
+     * 이메일을 통해 회원의 모든 정보(객체)를 가져오는 메서드
+     * @param inputEmail - 사용자가 입력한 이메일값
+     * @return - 해당 이메일을 통해 찾아낸 회원 객체,
+     *           만약 찾지 못하면 null을 리턴
+     */
+    public Member findMemberByEmail(String inputEmail) {
+        for (Member m : members) {
+            if (inputEmail.equals(m.email)) {
+                return m;
+            }
+        }
+        return null;
+    }
 }
+
+

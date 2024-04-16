@@ -36,5 +36,12 @@ public class Test {
         mr.addNewMember(newMember);
 
         mv.showMembers();
+
+//        MemberRepository mr = new MemberRepository();
+//
+//        Member foundMember = mr.findMemberByEmail("xyz123@def.com");
+//        System.out.println("foundMember = " + foundMember);
+
+
     }
 }

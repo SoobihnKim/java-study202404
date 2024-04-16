@@ -1,9 +1,12 @@
 package day06.member;
 
+import util.SimpleInput;
+
 // 역할: 사용자의 메뉴 입력을 분기하는 역할
 public class MemberController {
 
     MemberView mv;
+    SimpleInput si;
 
     MemberController() {
         this.mv = new MemberView();
@@ -20,6 +23,8 @@ public class MemberController {
                     mv.inputNewMember();
                     break;
                 case "2":
+                    // 이메일을 입력받아서 회원을 개별조회 해주는 코드
+                    mv.getMember();
                     break;
                 case "3":
                     mv.showMembers();
@@ -30,6 +35,8 @@ public class MemberController {
                     boolean flag = mv.exitProgram();
                     if(flag) return;
             }
+
+            si.stopInput();
         }
     }
 }
