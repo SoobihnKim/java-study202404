@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 회원관리 시스템 - 회원정보 생성, 전체조회">
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 회원관리 시스템 - 회원 개별 조회 처리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day06/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/SimpleInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/SimpleInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,7 +437,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713236445084</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="# 회원관리 시스템 - 회원 개별 조회 처리">
+      <option name="closed" value="true" />
+      <created>1713246604207</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1713246604207</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -452,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# java 기초" />
     <MESSAGE value="# Variable" />
     <MESSAGE value="# 데이터 타입" />
     <MESSAGE value="# 형변환" />
@@ -477,7 +484,8 @@
     <MESSAGE value="# 회원관리 시스템 - 회원정보 객체 설계" />
     <MESSAGE value="# 회원관리 시스템 - 객체 간 협력" />
     <MESSAGE value="# 회원관리 시스템 - 회원정보 생성, 전체조회" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 회원관리 시스템 - 회원정보 생성, 전체조회" />
+    <MESSAGE value="# 회원관리 시스템 - 회원 개별 조회 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 회원관리 시스템 - 회원 개별 조회 처리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

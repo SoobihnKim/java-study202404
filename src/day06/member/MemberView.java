@@ -52,7 +52,8 @@ public class MemberView {
         System.out.println("* 2. 개별회원 정보 조회하기");
         System.out.println("* 3. 전체회원 정보 조회하기");
         System.out.println("* 4. 회원 정보 수정하기");
-        System.out.println("* 5. 프로그램 종료");
+        System.out.println("* 5. 회원 탈퇴하기");
+        System.out.println("* 6. 프로그램 종료");
         System.out.println("=============================");
 
         String menuNumber = si.input("- 메뉴번호: ");
@@ -78,12 +79,60 @@ public class MemberView {
         // 이메일이 일치하는 회원이 있는지 조회
         Member foundMember = mr.findMemberByEmail(inputEmail);
         if (foundMember != null) {
-            System.out.println(" ");
+            System.out.println("============= 조회 결과 ============");
             System.out.println("# 이름: " + foundMember.memberName);
             System.out.println("# 비밀번호: " + foundMember.password);
             System.out.println("# 성별: " + foundMember.gender);
             System.out.println("# 나이: " + foundMember.age);
             System.out.println();
+        } else {
+            System.out.println("\n# 해당 회원은 존재하지 않습니다.");
+        }
+    }
+
+    // 수정 대상의 이메일을 입력받고 조회에 성공하면 패스워드를 수정
+    public void updatePassword() {
+        String inputEmail = si.input("# 수정하실 회원의 이메일을 입력하세요.\n>> ");
+
+        // 이메일이 일치하는 회원이 있는지 조회
+        Member foundMember = mr.findMemberByEmail(inputEmail);
+
+        if(foundMember != null) {
+
+            // 기존 비밀번호를 입력해주세요
+
+            // 비번 수정
+            System.out.printf("# %s님의 비밀번호를 변경합니다.\n", foundMember.memberName);
+            String newPassword = si.input("# 새 비밀번호: ");
+
+            // 회원정보 실제로 수정
+//            foundMember.password = newPassword;
+            foundMember.changePassword(newPassword); // member class 위임
+
+            System.out.println("# 비밀번호 변경이 완료되었습니다.");
+        } else {
+            System.out.println("\n# 해당 회원은 존재하지 않습니다.");
+        }
+    }
+
+    public void deleteMember() {
+        String inputEmail = si.input("# 삭제하실 회원의 이메일을 입력하세요.\n>> ");
+
+        // 이메일이 일치하는 회원이 있는지 조회
+        Member foundMember = mr.findMemberByEmail(inputEmail);
+
+        if(foundMember != null) {
+            // 삭제 진행
+            // 패스워드 검사
+            String inputPw = si.input("# 비밀번호를 입력하세요: ");
+            if(inputPw.equals(foundMember.password)) {
+                mr.removeMember(inputEmail);
+                System.out.printf("# %s님의 회원정보가 삭제되었습니다.\n", foundMember.memberName);
+            } else {
+                System.out.println("\n# 비밀번호가 일치하지 않습니다. 탈퇴를 취소합니다.");
+            }
+
+
         } else {
             System.out.println("\n# 해당 회원은 존재하지 않습니다.");
         }

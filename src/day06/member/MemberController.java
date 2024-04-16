@@ -10,6 +10,7 @@ public class MemberController {
 
     MemberController() {
         this.mv = new MemberView();
+        this.si = new SimpleInput();
     }
 
     // 메뉴 입력 분기에 따라 할 일을 나눠주는 기능
@@ -30,8 +31,12 @@ public class MemberController {
                     mv.showMembers();
                     break;
                 case "4":
+                    mv.updatePassword();
                     break;
                 case "5":
+                    mv.deleteMember();
+                    break;
+                case "6":
                     boolean flag = mv.exitProgram();
                     if(flag) return;
             }

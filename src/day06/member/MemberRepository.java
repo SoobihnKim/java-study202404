@@ -63,6 +63,32 @@ public class MemberRepository {
         }
         return null;
     }
+
+    int findIndex(String email) {
+        for (int i = 0; i < members.length; i++) {
+            if(email.equals(members[i].email)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    // 배열에서 회원정보 삭제
+    public void removeMember(String inputEmail) {
+
+        int index = findIndex(inputEmail);
+        if(index == -1) return;
+
+        for (int i = index; i < members.length - 1 ; i++) {
+            members[i] = members[i + 1];
+        }
+
+        Member[] temp = new Member[members.length -1];
+        for (int i = 0; i < temp.length; i++) {
+            temp[i] = members[i];
+        }
+        members = temp;
+    }
 }
 
 
