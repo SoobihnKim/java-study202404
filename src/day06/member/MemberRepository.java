@@ -4,7 +4,8 @@ package day06.member;
 public class MemberRepository {
 
     // 필드
-    static Member[] members;
+    static Member[] members; // 현재 관리되는 회원 배열
+    static Member[] restoreList; // 삭제된 회원들이 모일 배열
 
     // 생성자
     MemberRepository() {
@@ -41,6 +42,7 @@ public class MemberRepository {
      * @since - 2024.04.16.     *
      */
     boolean isDuplicateEmail(String targetEmail) {
+//        return members.findIndex(targetEmail) != -1;
         for( Member m : members) {
             if(targetEmail.equals(m.email)) {
                 return true;
@@ -88,7 +90,33 @@ public class MemberRepository {
             temp[i] = members[i];
         }
         members = temp;
+
+
+        // 배열에 데이터를 추가하는 로직
+        Member[] temp2 = new Member[restoreList.length + 1];
+        for (int i = 0; i < restoreList.length; i++) {
+            temp2[i] = restoreList[i];
+        }
+//        temp2[temp2.length - 1] = restoreList;
+        restoreList = temp;
     }
-}
+
+    public void restoreMember(String inputEmail) {
+        int index = findIndex(inputEmail);
+        if(index == -1) return;
+
+        for (int i = index; i < members.length - 1 ; i++) {
+            members[i] = members[i + 1];
+        }
+
+        Member[] temp = new Member[members.length -1];
+        for (int i = 0; i < temp.length; i++) {
+            temp[i] = members[i];
+        }
+        members = temp;
+        restoreList = members;
+    }
+    }
+
 
 
