@@ -92,13 +92,13 @@ public class MemberRepository {
         members = temp;
 
 
-        // 배열에 데이터를 추가하는 로직
+        // 배열에 데이터를 추가하는 로직(복구)
         Member[] temp2 = new Member[restoreList.length + 1];
         for (int i = 0; i < restoreList.length; i++) {
             temp2[i] = restoreList[i];
         }
 //        temp2[temp2.length - 1] = restoreList;
-        restoreList = temp;
+        restoreList = temp2;
     }
 
     public void restoreMember(String inputEmail) {
