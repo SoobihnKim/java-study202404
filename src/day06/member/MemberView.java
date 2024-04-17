@@ -2,43 +2,42 @@ package day06.member;
 
 import util.SimpleInput;
 
-// 역할: 회원 데이터 관리를 위해 입력, 출력을 담당함
+// 역할: 회원 데이터 관리를 위해 입력 출력을 담당함
 public class MemberView {
 
     // 객체의 협력
     MemberRepository mr;
     SimpleInput si;
 
-    // 생성자
     MemberView() {
         this.mr = new MemberRepository();
         this.si = new SimpleInput();
     }
 
     void showMembers() {
-        System.out.printf("=========현재 회원 목록 (총 %d명)=========\n", mr.members.length);
-        for (Member m : mr.members) {
+        System.out.printf("========= 현재 회원 목록 (총 %d명) ==========\n", mr.members.size());
+        for (Member m : mr.members.getMembers()) {
             System.out.println(m);
         }
     }
 
     // 회원정보 생성을 위해 입력을 처리
     void inputNewMember() {
-        String email = null; // while 밖에서도 써야하니 이렇게 처리
+        String email = null;
         while (true) {
-            email = si.input(" - 이메일: ");
+            email = si.input("- 이메일: ");
             if (!mr.isDuplicateEmail(email)) {
                 break;
             }
             System.out.println("중복된 이메일입니다.");
         }
 
-        String name = si.input(" - 이름: ");
-        String password = si.input(" - 패스워드: ");
-        String gender = si.input(" - 성별: ");
-        int age = Integer.parseInt(si.input(" - 나이: "));
+        String name = si.input("- 이름: ");
+        String password = si.input("- 패스워드: ");
+        String gender = si.input("- 성별: ");
+        int age = Integer.parseInt(si.input("- 나이: "));
 
-        // 입력 데이터를 기반으로 한 명의 회원 객체를 생성
+        // 입력데이터를 기반으로 한 명의 회원 객체를 생성
         Member newMember = new Member(email, password, name, gender, age);
 
         // 위임 - 관심사의 분리
@@ -53,21 +52,22 @@ public class MemberView {
         System.out.println("* 3. 전체회원 정보 조회하기");
         System.out.println("* 4. 회원 정보 수정하기");
         System.out.println("* 5. 회원 탈퇴하기");
-        System.out.println("* 6. 회원정보 복구하기");
+        System.out.println("* 6. 회원 복구하기");
         System.out.println("* 7. 프로그램 종료");
         System.out.println("=============================");
 
-        String menuNumber = si.input("- 메뉴번호: ");
+        String menuNumber = si.input("- 메뉴 번호: ");
         return menuNumber;
     }
 
     // 프로그램 종료를 판단하는 입출력
     boolean exitProgram() {
-        String exit = si.input("- 프로그램을 종료합니까? [y/n]\n>>");
+        String exit = si.input("- 프로그램을 종료합니까? [y/n]\n>> ");
         if (exit.equals("y")) {
-            System.out.println("프로그램 종료합니다.");
+            System.out.println("프로그램을 종료합니다!");
             return true;
-        } else {
+        }
+        else {
             System.out.println("프로그램 종료를 취소합니다.");
             return false;
         }
@@ -79,6 +79,7 @@ public class MemberView {
 
         // 이메일이 일치하는 회원이 있는지 조회
         Member foundMember = mr.findMemberByEmail(inputEmail);
+
         if (foundMember != null) {
             System.out.println("============= 조회 결과 ============");
             System.out.println("# 이름: " + foundMember.memberName);
@@ -108,7 +109,7 @@ public class MemberView {
 
             // 회원정보 실제로 수정
 //            foundMember.password = newPassword;
-            foundMember.changePassword(newPassword); // member class 위임
+            foundMember.changePassword(newPassword);
 
             System.out.println("# 비밀번호 변경이 완료되었습니다.");
         } else {
@@ -125,32 +126,31 @@ public class MemberView {
         if (foundMember != null) {
             // 삭제 진행
             // 패스워드 검사
-            String inputPw = si.input("# 비밀번호를 입력하세요: ");
+            String inputPw = si.input("# 비밀번호를 입력: ");
             if (inputPw.equals(foundMember.password)) {
                 mr.removeMember(inputEmail);
                 System.out.printf("# %s님의 회원정보가 삭제되었습니다.\n", foundMember.memberName);
             } else {
                 System.out.println("\n# 비밀번호가 일치하지 않습니다. 탈퇴를 취소합니다.");
             }
-
-
         } else {
             System.out.println("\n# 해당 회원은 존재하지 않습니다.");
         }
+
     }
 
+    // 회원 복구에 관련한 입출력 처리
     public void restoreMember() {
-        String inputEmail = si.input("# 복구하실 회원의 이메일을 입력하세요.\n>> ");
+        String inputEmail = si.input("#복구하실 회원의 이메일을 입력하세요.\n>> ");
 
-        // 이메일이 일치하는 회원이 있는지 조회
-        Member foundMember = mr.findMemberByEmail(inputEmail);
+        // 이메일이 일치하는 회원이 복구리스트에 있는지 조회
+        Member foundMember = mr.findRestoreMemberByEmail(inputEmail);
 
         if (foundMember != null) {
-            // 복구 진행
             // 패스워드 검사
-            String inputPw = si.input("# 비밀번호를 입력하세요: ");
+            String inputPw = si.input("# 비밀번호를 입력: ");
             if (inputPw.equals(foundMember.password)) {
-                mr.restoreMember(inputEmail);
+                mr.restore(inputEmail);
                 System.out.printf("# %s님의 회원정보가 복구되었습니다.\n", foundMember.memberName);
             } else {
                 System.out.println("\n# 비밀번호가 일치하지 않습니다. 복구를 취소합니다.");
@@ -158,5 +158,7 @@ public class MemberView {
         } else {
             System.out.println("\n# 해당 회원은 존재하지 않습니다.");
         }
+        }
+
     }
-}
+

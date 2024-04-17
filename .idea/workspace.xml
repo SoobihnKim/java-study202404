@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 회원관리 시스템 - 회원정보 복구">
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 회원관리 시스템 - 회원정보 복구(수정)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,46 +62,46 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FieldMain.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PackageMain.executor": "Run",
-    "Application.StringCompare.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/SooHong Kim/Desktop/Coding/java-study202404/src/Main.java",
-    "project.structure.last.edited": "SDK",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "애플리케이션.ArrayBasic.executor": "Run",
-    "애플리케이션.ArrayCopy.executor": "Run",
-    "애플리케이션.ArrayDelete.executor": "Run",
-    "애플리케이션.ArrayInsert.executor": "Run",
-    "애플리케이션.ArrayPop.executor": "Run",
-    "애플리케이션.ArrayPush.executor": "Run",
-    "애플리케이션.ArrayQuiz01.executor": "Run",
-    "애플리케이션.ArrayQuiz02.executor": "Run",
-    "애플리케이션.ArrayQuiz03.executor": "Run",
-    "애플리케이션.ArraySearch.executor": "Run",
-    "애플리케이션.DancerMain.executor": "Run",
-    "애플리케이션.DataType.executor": "Run",
-    "애플리케이션.DogMain.executor": "Run",
-    "애플리케이션.ListMain.executor": "Run",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.Matrix.executor": "Run",
-    "애플리케이션.MethodBasic.executor": "Run",
-    "애플리케이션.MethodQuiz01.executor": "Run",
-    "애플리케이션.RandomExample.executor": "Run",
-    "애플리케이션.ScannerPractice.executor": "Run",
-    "애플리케이션.StdIO.executor": "Run",
-    "애플리케이션.Test.executor": "Run",
-    "애플리케이션.TypeCasting.executor": "Run",
-    "애플리케이션.Variable.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FieldMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PackageMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringCompare.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SooHong Kim/Desktop/Coding/java-study202404/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;애플리케이션.ArrayBasic.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArrayCopy.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArrayDelete.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArrayInsert.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArrayPop.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArrayPush.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArrayQuiz01.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArrayQuiz02.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArrayQuiz03.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArraySearch.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.DancerMain.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.DataType.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.DogMain.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ListMain.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Matrix.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MethodBasic.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MethodQuiz01.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.RandomExample.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ScannerPractice.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.StdIO.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Test.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.TypeCasting.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Variable.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
@@ -457,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713257327494</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="# 회원관리 시스템 - 회원정보 복구(수정)">
+      <option name="closed" value="true" />
+      <created>1713259352172</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1713259352172</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -472,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 형변환" />
     <MESSAGE value="# 형 변환" />
     <MESSAGE value="# 연산" />
     <MESSAGE value="# 표준출력, 배열" />
@@ -497,7 +506,8 @@
     <MESSAGE value="# 회원관리 시스템 - 회원 개별 조회 처리" />
     <MESSAGE value="# 회원관리 시스템 - 회원 수정, 삭제" />
     <MESSAGE value="# 회원관리 시스템 - 회원정보 복구" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 회원관리 시스템 - 회원정보 복구" />
+    <MESSAGE value="# 회원관리 시스템 - 회원정보 복구(수정)" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 회원관리 시스템 - 회원정보 복구(수정)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
