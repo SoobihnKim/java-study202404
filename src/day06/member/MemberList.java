@@ -2,7 +2,7 @@ package day06.member;
 
 public class MemberList {
 
-    Member[] mArr;
+   private Member[] mArr;
 
     MemberList() {
         this.mArr = new Member[0];
