@@ -11,6 +11,11 @@ public class Mage extends Player {
         this.mana = 100;
     }
 
+    public void showStatus() {
+        super.showStatus(); // 부모가 물려준 메서드
+        System.out.println("# mana: " + this.mana);
+    }
+
     public void thunderbolt(Mage... targets) {
 
     }

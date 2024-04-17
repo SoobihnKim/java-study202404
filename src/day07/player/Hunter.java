@@ -11,6 +11,11 @@ public class Hunter extends Player {
         this.concentration = 10;
     }
 
+    public void showStatus() {
+        super.showStatus(); // 부모가 물려준 메서드
+        System.out.println("# concentration: " + this.concentration);
+    }
+
     public void multipleArrow() {
 
     }
