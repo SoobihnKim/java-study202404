@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# super">
-      <change afterPath="$PROJECT_DIR$/src/day08/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/singleton/MyPet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/Person.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# static, Singleton">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz1/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz1/연습문제.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/연습문제2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/SimpleInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/SimpleInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +75,7 @@
     "Application.PackageMain.executor": "Run",
     "Application.StringCompare.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/SooHong Kim/Desktop/Coding/java-study202404/src/Main.java",
@@ -95,6 +98,8 @@
     "애플리케이션.DogMain.executor": "Run",
     "애플리케이션.ListMain.executor": "Run",
     "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Main2.executor": "Run",
+    "애플리케이션.Main3.executor": "Run",
     "애플리케이션.Matrix.executor": "Run",
     "애플리케이션.MethodBasic.executor": "Run",
     "애플리케이션.MethodQuiz01.executor": "Run",
@@ -112,16 +117,24 @@
     "애플리케이션.day07.player.Main.executor": "Run",
     "애플리케이션.day08.gisa.Main.executor": "Run",
     "애플리케이션.day08.singleton.Main.executor": "Run",
-    "애플리케이션.day08.static_.Main.executor": "Run"
+    "애플리케이션.day08.static_.Main.executor": "Run",
+    "애플리케이션.day08.static_.quiz1.Main.executor": "Run",
+    "애플리케이션.day08.static_.quiz2.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.day08.singleton.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.super_.Main" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz2" />
+      <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.day08.static_.quiz2.Main">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.static_.Main2" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.super_.*" />
+          <option name="PATTERN" value="day08.static_.quiz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,25 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.gisa.Recursive" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.static_.quiz2.Main3" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.gisa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day08.gisa.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.gisa.Main" />
-      <module name="java-study202404" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08.gisa.*" />
+          <option name="PATTERN" value="day08.static_.quiz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +168,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day08.static_.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.static_.Main" />
+    <configuration name="day08.static_.quiz1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.static_.quiz1.Main" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.static_.*" />
+          <option name="PATTERN" value="day08.static_.quiz1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day08.static_.quiz2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.static_.quiz2.Main" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08.static_.quiz2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day08.static_.quiz2.Main" />
+        <item itemvalue="애플리케이션.day08.static_.quiz1.Main" />
+        <item itemvalue="애플리케이션.Main3" />
+        <item itemvalue="애플리케이션.Main2" />
         <item itemvalue="애플리케이션.day08.singleton.Main" />
-        <item itemvalue="애플리케이션.day08.static_.Main" />
-        <item itemvalue="애플리케이션.Recursive" />
-        <item itemvalue="애플리케이션.day08.gisa.Main" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713403930603</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="# static, Singleton">
+      <option name="closed" value="true" />
+      <created>1713409115797</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1713409115797</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -543,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 배열 퀴즈 풀이" />
     <MESSAGE value="# 배열 알고리즘" />
     <MESSAGE value="# 2차원 배열" />
     <MESSAGE value="# 2차원 배열 Matrix" />
@@ -568,7 +588,8 @@
     <MESSAGE value="# 상속" />
     <MESSAGE value="# 상속 기초" />
     <MESSAGE value="# super" />
-    <option name="LAST_COMMIT_MESSAGE" value="# super" />
+    <MESSAGE value="# static, Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="# static, Singleton" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
