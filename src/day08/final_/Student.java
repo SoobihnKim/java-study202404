@@ -10,7 +10,6 @@ public class Student {
     public Student(final String ssn) {
 //        ssn = "dfdsfd"; // 지역변수에 final 붙이면 안에서 조작 불가능
 
-
         this.ssn = ssn;
     }
 
