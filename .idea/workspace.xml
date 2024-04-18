@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# final">
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/quiz3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/final_/연습문제.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/Student.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# final quiz">
+      <change afterPath="$PROJECT_DIR$/src/day06/member/MemberConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -578,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713420843089</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="# final quiz">
+      <option name="closed" value="true" />
+      <created>1713422746625</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1713422746625</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# method quiz 풀이" />
     <MESSAGE value="# 객체지향" />
     <MESSAGE value="# 생성자, 필드와 지역변수" />
     <MESSAGE value="# 문자열 비교" />
@@ -618,7 +622,8 @@
     <MESSAGE value="# protected" />
     <MESSAGE value="# final 필드" />
     <MESSAGE value="# final" />
-    <option name="LAST_COMMIT_MESSAGE" value="# final" />
+    <MESSAGE value="# final quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="# final quiz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
