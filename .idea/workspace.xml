@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 상수">
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/PizzaStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/quiz/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/quiz/TeamMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/quiz/TeamRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/enum_/quiz/연습문제.md" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 열거형(Enum)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/enum_/PizzaStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/enum_/PizzaStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/final_/연습문제.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/quiz3/연습문제.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/static_/quiz2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +123,7 @@
       <recent name="day08.enum_.quiz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\final_\quiz3" />
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\enum_\quiz" />
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz2" />
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz1" />
@@ -603,7 +598,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713423357046</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="# 열거형(Enum)">
+      <option name="closed" value="true" />
+      <created>1713428408518</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1713428408518</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -618,7 +621,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 생성자, 필드와 지역변수" />
     <MESSAGE value="# 문자열 비교" />
     <MESSAGE value="# String 배열" />
     <MESSAGE value="# 패키지" />
@@ -643,7 +645,8 @@
     <MESSAGE value="# final" />
     <MESSAGE value="# final quiz" />
     <MESSAGE value="# 상수" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 상수" />
+    <MESSAGE value="# 열거형(Enum)" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 열거형(Enum)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

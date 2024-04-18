@@ -11,8 +11,8 @@ public enum PizzaStatus {
     READY("준비 완료", 20),
     DELIVERED("배달 완료", 30);
 
-    private String description; // 설명
-    private int timeToSetup; // 소요 시간
+    private final String description; // 설명
+    private final int timeToSetup; // 소요 시간
 
     PizzaStatus(String description, int timeToSetup) {
         this.description = description;

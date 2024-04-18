@@ -14,7 +14,7 @@ public class Product {
         this.price = price;
     }
 
-    void sellProduct(){
+    public void sellProduct(){
         Store.addSale(this.price);
     }
 }
