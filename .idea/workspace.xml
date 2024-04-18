@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 상속">
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/ElectronicProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/Smartphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/practice/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/연습문제.md" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 상속 기초">
+      <change afterPath="$PROJECT_DIR$/src/day07/player/HighMage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/gisa/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/gisa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/gisa/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/gisa/Recursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/super_/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/super_/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/super_/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day07/player/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Hunter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day07/player/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day07/player/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +104,7 @@
     "애플리케이션.MethodBasic.executor": "Run",
     "애플리케이션.MethodQuiz01.executor": "Run",
     "애플리케이션.RandomExample.executor": "Run",
+    "애플리케이션.Recursive.executor": "Run",
     "애플리케이션.ScannerPractice.executor": "Run",
     "애플리케이션.StdIO.executor": "Run",
     "애플리케이션.Test.executor": "Run",
@@ -112,16 +114,17 @@
     "애플리케이션.day07.encap.practice.Main.executor": "Run",
     "애플리케이션.day07.inherit.Main.executor": "Run",
     "애플리케이션.day07.inherit.practice.Main.executor": "Run",
-    "애플리케이션.day07.player.Main.executor": "Run"
+    "애플리케이션.day07.player.Main.executor": "Run",
+    "애플리케이션.day08.gisa.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.day07.inherit.practice.Main">
-    <configuration name="day07.encap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.encap.Main" />
+  <component name="RunManager" selected="애플리케이션.Recursive">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.super_.Main" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.encap.*" />
+          <option name="PATTERN" value="day08.super_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.encap.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.encap.practice.Main" />
+    <configuration name="Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.gisa.Recursive" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.encap.practice.*" />
+          <option name="PATTERN" value="day08.gisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.player.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.player.Main" />
+    <configuration name="day08.gisa.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.gisa.Main" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.player.*" />
+          <option name="PATTERN" value="day08.gisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Recursive" />
+        <item itemvalue="애플리케이션.day08.gisa.Main" />
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.day07.inherit.practice.Main" />
         <item itemvalue="애플리케이션.day07.inherit.Main" />
-        <item itemvalue="애플리케이션.day07.player.Main" />
-        <item itemvalue="애플리케이션.day07.encap.practice.Main" />
-        <item itemvalue="애플리케이션.day07.encap.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713337100031</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="# 상속 기초">
+      <option name="closed" value="true" />
+      <created>1713342551572</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1713342551572</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 배열 인덱스 삭제" />
     <MESSAGE value="# 배열 퀴즈" />
     <MESSAGE value="# 배열 퀴즈 풀이" />
     <MESSAGE value="# 배열 알고리즘" />
@@ -552,7 +562,8 @@
     <MESSAGE value="# 접근제한자" />
     <MESSAGE value="# 캡슐화, 정보은닉" />
     <MESSAGE value="# 상속" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 상속" />
+    <MESSAGE value="# 상속 기초" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 상속 기초" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
