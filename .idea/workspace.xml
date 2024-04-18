@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# final quiz">
-      <change afterPath="$PROJECT_DIR$/src/day06/member/MemberConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 상수">
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/PizzaStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/quiz/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/quiz/TeamMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/quiz/TeamRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/enum_/quiz/연습문제.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/final_/quiz3/WeatherConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +115,8 @@
     "애플리케이션.day07.inherit.Main.executor": "Run",
     "애플리케이션.day07.inherit.practice.Main.executor": "Run",
     "애플리케이션.day07.player.Main.executor": "Run",
+    "애플리케이션.day08.enum_.Main.executor": "Run",
+    "애플리케이션.day08.enum_.quiz.Main.executor": "Run",
     "애플리케이션.day08.gisa.Main.executor": "Run",
     "애플리케이션.day08.singleton.Main.executor": "Run",
     "애플리케이션.day08.static_.Main.executor": "Run",
@@ -117,12 +125,16 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="day08.enum_.quiz" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\enum_\quiz" />
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz2" />
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="애플리케이션.day08.enum_.quiz.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day08.final_.quiz3.Main" />
       <module name="java-study202404" />
@@ -136,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.static_.Main2" />
+    <configuration name="day08.enum_.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.enum_.Main" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.static_.quiz1.*" />
+          <option name="PATTERN" value="day08.enum_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.static_.quiz2.Main3" />
+    <configuration name="day08.enum_.quiz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.enum_.quiz.Main" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.static_.quiz1.*" />
+          <option name="PATTERN" value="day08.enum_.quiz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day08.enum_.quiz.Main" />
+        <item itemvalue="애플리케이션.day08.enum_.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.day08.static_.quiz2.Main" />
         <item itemvalue="애플리케이션.day08.static_.quiz1.Main" />
-        <item itemvalue="애플리케이션.Main3" />
-        <item itemvalue="애플리케이션.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713422746625</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="# 상수">
+      <option name="closed" value="true" />
+      <created>1713423357046</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1713423357046</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -598,7 +618,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 객체지향" />
     <MESSAGE value="# 생성자, 필드와 지역변수" />
     <MESSAGE value="# 문자열 비교" />
     <MESSAGE value="# String 배열" />
@@ -623,7 +642,8 @@
     <MESSAGE value="# final 필드" />
     <MESSAGE value="# final" />
     <MESSAGE value="# final quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="# final quiz" />
+    <MESSAGE value="# 상수" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 상수" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
