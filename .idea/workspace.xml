@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# static, Singleton">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz1/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz1/연습문제.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/연습문제2.md" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# static 연습문제">
+      <change afterPath="$PROJECT_DIR$/src/day08/protec/pac1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/protec/pac1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/protec/pac2/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/protec/pac2/D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/static_/quiz2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/static_/quiz2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -549,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713409115797</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="# static 연습문제">
+      <option name="closed" value="true" />
+      <created>1713417784340</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1713417784340</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 배열 알고리즘" />
     <MESSAGE value="# 2차원 배열" />
     <MESSAGE value="# 2차원 배열 Matrix" />
     <MESSAGE value="# method" />
@@ -589,7 +592,8 @@
     <MESSAGE value="# 상속 기초" />
     <MESSAGE value="# super" />
     <MESSAGE value="# static, Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="# static, Singleton" />
+    <MESSAGE value="# static 연습문제" />
+    <option name="LAST_COMMIT_MESSAGE" value="# static 연습문제" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

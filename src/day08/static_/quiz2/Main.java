@@ -1,6 +1,7 @@
 package day08.static_.quiz2;
 
 public class Main {
+
     public static void main(String[] args) {
 
         Product product1 = new Product("노트북", 1000000);
