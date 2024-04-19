@@ -54,5 +54,7 @@ public class BookUser {
     public void setCouponCount(int couponCount) {
         this.couponCount = couponCount;
     }
+
+
 }
 

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# Book 연습문제">
+      <change afterPath="$PROJECT_DIR$/src/day09/book/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/BookList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day09/book/BookUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/BookUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/CartoonBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/CartoonBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/CookBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/CookBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,14 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00006" summary="# java 기초">
-      <option name="closed" value="true" />
-      <created>1712282547614</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1712282547614</updated>
     </task>
     <task id="LOCAL-00007" summary="# Variable">
       <option name="closed" value="true" />
@@ -617,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713505230878</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="# Book 연습문제">
+      <option name="closed" value="true" />
+      <created>1713510059731</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1713510059731</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

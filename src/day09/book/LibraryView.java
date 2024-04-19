@@ -1,6 +1,7 @@
 package day09.book;
 
 import day05.StringList;
+import day06.member.Member;
 import util.SimpleInput;
 
 import static util.SimpleInput.*;
@@ -49,6 +50,7 @@ public class LibraryView {
         System.out.println("# 5. 도서 저자이름으로 검색");
         System.out.println("# 9. 프로그램 종료");
         System.out.println("=============================");
+
     }
 
     // 코드의 흐름을 캡슐화
@@ -61,13 +63,16 @@ public class LibraryView {
 
             switch (menuNum) {
                 case "1":
+                    userInfo();
                     break;
                 case "2":
                     displayAllBooks();
                     break;
                 case "3":
+                    searchBooksByTitle();
                     break;
                 case "4":
+                    rentBook();
                     break;
                 case "9":
                     System.out.println("# 프로그램을 종료합니다!!");
@@ -78,18 +83,62 @@ public class LibraryView {
         }
     }
 
+
+    private void userInfo() {
+        System.out.println("\n******** 회원 정보 **********");
+        BookUser userInfo = repository.getUserInfo();
+        System.out.println("# 이름: " + userInfo.getName());
+        System.out.println("# 나이: " + userInfo.getAge());
+        System.out.println("# 성별: " + userInfo.getGender());
+        System.out.println("# 쿠폰개수: " + userInfo.getCouponCount());
+    }
+
+    // 책 제목으로 검색어포함된 책 내용 출력하기
+    private void searchBooksByTitle() {
+        String keyword = input("# 검색어: ");
+
+        Book[] searchBooks = repository.searchBookList(keyword);
+
+        if (searchBooks.length > 0) {
+            System.out.printf("\n======== [%s] 검색 결과 =========\n", keyword);
+            for (Book searchBook : searchBooks) {
+                System.out.println(searchBook.info());
+            }
+        } else {
+            System.out.println("\n# 검색 결과가 없습니다.");
+        }
+    }
+
     // 전체 도서 정보를 출력
     private void displayAllBooks() {
-        System.out.println("\n========== 전체 도서 목록 =============");
-        Book[] informationList =  repository.getAllBooksInfo();
+        System.out.println("\n=============== 전체 도서 목록 ================");
+        Book[] informationList = repository.getAllBooksInfo();
 
-        for (Book book : informationList) {
-            System.out.println(book.info());
-        }
-
-
+        for (int i = 0; i < informationList.length; i++) {
+            Book book = informationList[i];
+            System.out.printf("%d. %s\n", i + 1, book.info());
         }
     }
 
 
+    private void rentBook() {
+        displayAllBooks();
+        String bookNum = input("- 대여할 도서 번호 입력: ");
 
+        // 저장소에다가 대여가능한지 여부 검증
+        RentStatus status = repository.rentBook(Integer.parseInt(bookNum));
+
+        if (status == RentStatus.RENT_SUCCESS_WITH_COUPON) {
+            System.out.println("# 성공적으로 요리책이 쿠폰발급과 함께 대여되었습니다.");
+        } else if (status == RentStatus.RENT_SUCCESS) {
+            System.out.println("# 도서가 성공적으로 대여되었습니다.");
+        } else {
+            System.out.println("# 도서 대여에 실패했습니다.");
+        }
+
+
+
+    }
+
+
+}
