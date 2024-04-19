@@ -6,9 +6,9 @@ public class Test {
 
         LibraryRepository repository = new LibraryRepository();
 
-        Book[] array = repository.searchBookList("맨");
+        Book[] array = repository.searchBookList("원");
         for (Book book : array) {
-
+            System.out.println(book.info());
         }
     }
 }
