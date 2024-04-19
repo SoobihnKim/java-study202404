@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 다형성 기초">
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/casting/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/casting/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/casting/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/ComputerPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/HardDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/연습문제.md" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 타입 캐스팅">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/player/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/practice/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/practice/Computer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,14 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00003" summary="# test commit">
-      <option name="closed" value="true" />
-      <created>1712280410742</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1712280410742</updated>
     </task>
     <task id="LOCAL-00004" summary="# test commit">
       <option name="closed" value="true" />
@@ -620,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713488305271</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="# 타입 캐스팅">
+      <option name="closed" value="true" />
+      <created>1713492684182</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1713492684182</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -635,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# String 배열" />
     <MESSAGE value="# 패키지" />
     <MESSAGE value="# this" />
     <MESSAGE value="# 회원관리 시스템 - 회원정보 객체 설계" />
@@ -660,7 +646,8 @@
     <MESSAGE value="# 상수" />
     <MESSAGE value="# 열거형(Enum)" />
     <MESSAGE value="# 다형성 기초" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 다형성 기초" />
+    <MESSAGE value="# 타입 캐스팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 타입 캐스팅" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

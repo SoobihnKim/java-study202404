@@ -10,5 +10,12 @@ public class Main {
         myComputer.addPart(new HardDrive("Samsung SSD 1TB", 150000));
 
         myComputer.showParts();
+
+        /*
+        Processor: Intel i7, Price: 320000
+        Memory: Corsair Vengeance 16GB, Price: 90000
+        Hard Drive: Samsung SSD 1TB, Price: 150000
+
+         */
     }
 }
