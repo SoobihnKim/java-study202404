@@ -1,5 +1,6 @@
 package day09.book;
 
+// 요리책 정보 1개를 가진 객체
 public class CookBook extends Book{
 
 

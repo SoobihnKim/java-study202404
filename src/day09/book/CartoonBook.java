@@ -1,5 +1,6 @@
 package day09.book;
 
+// 만화책 정보 1개를 가진 객체
 public class CartoonBook extends Book {
 
     private int accessAge; // 나이 제한

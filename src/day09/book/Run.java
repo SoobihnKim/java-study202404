@@ -6,7 +6,8 @@ public class Run {
 
     public static void main(String[] args) {
 
-        LibraryView.start();
+        LibraryView view = new LibraryView();
+        view.start();
 
     }
 }

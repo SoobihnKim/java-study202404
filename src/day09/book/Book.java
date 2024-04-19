@@ -1,5 +1,6 @@
 package day09.book;
 
+// 1권의 책 정보를 가진 객체
 public class Book {
 
     private String title; // 도서명
@@ -45,7 +46,7 @@ public class Book {
         int length = this.title.length();
         String prettier;
         if (length > 8) {
-            // 문자열 슬라이스 substring()
+            // 문자열 슬라이스 substring() 제목길면 자르기
             prettier = this.title.substring(0, 8) + "...";
         } else {
             prettier = this.title;

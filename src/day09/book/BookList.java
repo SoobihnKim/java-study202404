@@ -1,15 +1,60 @@
 package day09.book;
 
+
 public class BookList {
 
-    private String booklist;
+    private Book[] bArr;
+
+    private static final int NOT_FOUND = -1;
+
+    public BookList() {
+        this.bArr = new Book[0];
+    }
+
+    // 맨 끝에 추가
+    public void push(Book newBook) {
+        Book[] temp = new Book[this.bArr.length + 1];
+        for (int i = 0; i < this.bArr.length; i++) {
+            temp[i] = this.bArr[i];
+        }
+        temp[temp.length - 1] = newBook;
+        this.bArr = temp;
+    }
+
+    // 맨 끝 제거
+    private Book pop() {
+        // 맨 끝 책 백업
+        Book lastBook = bArr[bArr.length - 1];
+        Book[] temp = new Book[bArr.length - 1];
+        for (int i = 0; i < temp.length; i++) {
+            temp[i] = bArr[i];
+        }
+        bArr = temp;
+        return lastBook;
+    }
+
+    // 책 정보 삭제
+    public Book remove(int index) {
+        // 삭제 대상 백업
+        Book removedBook = bArr[index];
+        for (int i = index; i < bArr.length - 1; i++) {
+            bArr[i] = bArr[i + 1];
+        }
+        pop();
+        return removedBook;
+    }
+
+    // 배열에 저장된 요소 수 리턴
+    int size() {
+        return bArr.length;
+    }
 
 
-    //    new CookBook("기적의 집밥책", "김해진", "청림라이프", true),
-//    new CartoonBook("떨어지면 끝장맨", "스에노부 케이코", "대원씨아이", 18),
-//    new CartoonBook("원펀맨", "One", "대원씨아이", 15),
-//    new CookBook("삐뽀삐뽀 119 이유식", "하정훈", "유니책방", false),
-//    new CookBook("오늘은 아무래도 덮밥", "이마이 료", "참돌", true),
-//    new void CartoonBook("이세계로 전이했으니 치트를 살려 마법검사가 되기로 했다", "Shinkoshoto", "대원씨아이", 12)
+    public Book[] getbArr() {
+        return bArr;
+    }
 
+    public Book get(int index) {
+        return bArr[index];
+    }
 }

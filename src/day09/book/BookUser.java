@@ -1,5 +1,6 @@
 package day09.book;
 
+// 1명의 도서관 회원정보를 가진 객체
 public class BookUser {
 
 
