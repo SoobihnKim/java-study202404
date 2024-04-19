@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 열거형(Enum)">
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/car/CarShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/car/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/car/Tucson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/computer/Desktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/computer/HpMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/computer/LgMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/computer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/poly/computer/Monitor.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 다형성 기초">
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/casting/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/casting/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/casting/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/ComputerPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/HardDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/poly/practice/연습문제.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/player/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/player/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,8 @@
     "애플리케이션.day08.static_.Main.executor": "Run",
     "애플리케이션.day08.static_.quiz1.Main.executor": "Run",
     "애플리케이션.day08.static_.quiz2.Main.executor": "Run",
-    "애플리케이션.day09.poly.car.Main.executor": "Run"
+    "애플리케이션.day09.poly.car.Main.executor": "Run",
+    "애플리케이션.day09.poly.casting.Main.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -134,19 +136,20 @@
       <recent name="day08.enum_.quiz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day09\poly\practice" />
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\final_\quiz3" />
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\enum_\quiz" />
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz2" />
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day09.poly.car.Main">
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.final_.quiz3.Main" />
+      <option name="MAIN_CLASS_NAME" value="day09.poly.practice.Main" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.final_.quiz3.*" />
+          <option name="PATTERN" value="day09.poly.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day08.enum_.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.enum_.Main" />
+    <configuration name="day07.player.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.player.Main" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.enum_.*" />
+          <option name="PATTERN" value="day07.player.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,19 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day08.static_.quiz2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.static_.quiz2.Main" />
-      <module name="java-study202404" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08.static_.quiz2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="day09.poly.car.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day09.poly.car.Main" />
       <module name="java-study202404" />
@@ -206,13 +196,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day09.poly.casting.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.poly.casting.Main" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day09.poly.casting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.day09.poly.car.Main" />
-        <item itemvalue="애플리케이션.day08.enum_.quiz.Main" />
-        <item itemvalue="애플리케이션.day08.enum_.Main" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.day08.static_.quiz2.Main" />
+        <item itemvalue="애플리케이션.day07.player.Main" />
+        <item itemvalue="애플리케이션.day09.poly.car.Main" />
+        <item itemvalue="애플리케이션.day09.poly.casting.Main" />
+        <item itemvalue="애플리케이션.day08.enum_.quiz.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -224,14 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00002" summary="# test commit">
-      <option name="closed" value="true" />
-      <created>1712280285785</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1712280285785</updated>
     </task>
     <task id="LOCAL-00003" summary="# test commit">
       <option name="closed" value="true" />
@@ -617,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713430928781</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="# 다형성 기초">
+      <option name="closed" value="true" />
+      <created>1713488305270</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1713488305271</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -632,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 문자열 비교" />
     <MESSAGE value="# String 배열" />
     <MESSAGE value="# 패키지" />
     <MESSAGE value="# this" />
@@ -657,7 +659,8 @@
     <MESSAGE value="# final quiz" />
     <MESSAGE value="# 상수" />
     <MESSAGE value="# 열거형(Enum)" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 열거형(Enum)" />
+    <MESSAGE value="# 다형성 기초" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 다형성 기초" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
