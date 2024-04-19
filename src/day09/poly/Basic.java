@@ -6,6 +6,17 @@ class C extends A {}
 class D extends B {}
 class E extends C {}
 
+/*
+          Object
+            |
+            A
+         /    \
+        B     C
+        |     |
+        D     E
+
+ */
+
 public class Basic {
 
     void test() {
