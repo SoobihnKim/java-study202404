@@ -1,10 +1,14 @@
 package day10.inter.animal;
 
-public class Rabbit extends Animal implements Pet, Wild {
+public class Cat extends Animal implements Pet, Aggressive{
+    @Override
+    public void hunt(Pet pet) {
+
+    }
 
     @Override
     public void handle() {
-        this.age = 10;
+
     }
 
     @Override
@@ -16,10 +20,4 @@ public class Rabbit extends Animal implements Pet, Wild {
     public void violent() {
 
     }
-
-    // 사냥 기능 없고
-
-    // 난폭한 성격
-
-    // 애완동물로 키우기 가능
 }

@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 도서관리 프로그램(수정)">
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/GoldFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/abs/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/Galaxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/IPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/BullDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Huntable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Shark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Wild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Mustang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Sonata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/poly/car/Tucson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/poly/car/Tucson.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 추상 클래스, 추상 메서드, 인터페이스">
+      <change afterPath="$PROJECT_DIR$/src/day10/inter/animal/Aggressive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -240,14 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00009" summary="# 형변환">
-      <option name="closed" value="true" />
-      <created>1712289016908</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1712289016908</updated>
     </task>
     <task id="LOCAL-00010" summary="# 형 변환">
       <option name="closed" value="true" />
@@ -633,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713517769911</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="# 추상 클래스, 추상 메서드, 인터페이스">
+      <option name="closed" value="true" />
+      <created>1713751242878</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1713751242878</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,7 +626,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 회원관리 시스템 - 회원정보 생성, 전체조회" />
     <MESSAGE value="# 회원관리 시스템 - 회원 개별 조회 처리" />
     <MESSAGE value="# 회원관리 시스템 - 회원 수정, 삭제" />
     <MESSAGE value="# 회원관리 시스템 - 회원정보 복구" />
@@ -673,7 +650,8 @@
     <MESSAGE value="# Book 연습문제" />
     <MESSAGE value="# 도서관리 프로그램" />
     <MESSAGE value="# 도서관리 프로그램(수정)" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 도서관리 프로그램(수정)" />
+    <MESSAGE value="# 추상 클래스, 추상 메서드, 인터페이스" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 추상 클래스, 추상 메서드, 인터페이스" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
