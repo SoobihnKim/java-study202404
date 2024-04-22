@@ -47,7 +47,7 @@ public class LibraryView {
         System.out.println("# 2. 도서 전체 조회");
         System.out.println("# 3. 도서 제목으로 검색");
         System.out.println("# 4. 도서 대여하기");
-        System.out.println("# 5. 도서 저자이름으로 검색");
+//        System.out.println("# 5. 도서 저자이름으로 검색");
         System.out.println("# 9. 프로그램 종료");
         System.out.println("=============================");
 

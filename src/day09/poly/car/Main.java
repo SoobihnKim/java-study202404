@@ -81,6 +81,14 @@ public class Main {
 
         driver.drive(new Tucson());
 
+        Sonata sonata = new Sonata();
+        sonata.accelerate();
+
+        Tucson tucson = new Tucson();
+        tucson.accelerate();
+
+
+
 
     }
 }
