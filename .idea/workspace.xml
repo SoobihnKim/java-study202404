@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 예외 처리">
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/InvalidLoginInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/ThrowsExample.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 예외 throws 처리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/book/LibraryView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +143,7 @@
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz2" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="애플리케이션.Run">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.sort.InsertionSort" />
       <module name="java-study202404" />
@@ -173,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.sort.SelectionSort" />
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.book.Run" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.sort.*" />
+          <option name="PATTERN" value="day09.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Run" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.TryExample2" />
         <item itemvalue="애플리케이션.TryExample1" />
         <item itemvalue="애플리케이션.InsertionSort" />
-        <item itemvalue="애플리케이션.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -230,14 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00016" summary="# 배열 퀴즈">
-      <option name="closed" value="true" />
-      <created>1712552228101</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1712552228101</updated>
     </task>
     <task id="LOCAL-00017" summary="# 배열 퀴즈 풀이">
       <option name="closed" value="true" />
@@ -623,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713765403202</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="# 예외 throws 처리">
+      <option name="closed" value="true" />
+      <created>1713768765186</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1713768765187</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -638,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 캡슐화, 정보은닉" />
     <MESSAGE value="# 상속" />
     <MESSAGE value="# 상속 기초" />
     <MESSAGE value="# super" />
@@ -663,7 +659,8 @@
     <MESSAGE value="# 버블정렬" />
     <MESSAGE value="# 정렬" />
     <MESSAGE value="# 예외 처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 예외 처리" />
+    <MESSAGE value="# 예외 throws 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 예외 throws 처리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

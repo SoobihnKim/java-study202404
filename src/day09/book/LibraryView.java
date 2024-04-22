@@ -20,7 +20,15 @@ public class LibraryView {
     public void makeNewBookUser() {
         System.out.println("\n# 회원 정보를 입력해주세요.");
         String name = input("# 이름: ");
-        int age = Integer.parseInt(input("# 나이: "));
+        int age = 0;
+        while (true) {
+            try {
+                age = Integer.parseInt(input("# 나이: "));
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("나이는 숫자로 입력해주세요.");
+            }
+        }
         Gender gender = inputGender();
 
         // 입력된 데이터를 저장시켜야 함.
@@ -126,7 +134,13 @@ public class LibraryView {
         String bookNum = input("- 대여할 도서 번호 입력: ");
 
         // 저장소에다가 대여가능한지 여부 검증
-        RentStatus status = repository.rentBook(Integer.parseInt(bookNum));
+        RentStatus status = null;
+        try {
+            status = repository.rentBook(Integer.parseInt(bookNum));
+        } catch (IllegalArgumentException e) {
+            System.out.println("# 유효한 책 번호가 아닙니다.");
+            return;
+        }
 
         if (status == RentStatus.RENT_SUCCESS_WITH_COUPON) {
             System.out.println("# 성공적으로 요리책이 쿠폰발급과 함께 대여되었습니다.");

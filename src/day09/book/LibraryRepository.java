@@ -55,8 +55,14 @@ public class LibraryRepository {
      * 주어진 책 번호에 맞는 책이 대여 가능한지에 대한 상태 상수를 리턴
      * @param bookNum - 주어진 책 번호
      * @return - 대여 가능 상태를 반환
+     * @throws IllegalArgumentException - 주어진 도서 번호가 유효한 범위안의 값이 아닌경우
      */
     public RentStatus rentBook(int bookNum) {
+
+        // 책 번호가 범위안의 값인지 검증
+        if (bookNum < 1 || bookNum > bookList.size() - 1) {
+            throw new IllegalArgumentException("invalid book number!");
+        }
 
         // 1. 책번호에 해당하는 책 정보 가져오기
         Book wishBook = bookList.get(bookNum - 1);
