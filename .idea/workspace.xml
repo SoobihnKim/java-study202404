@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 버블정렬">
-      <change afterPath="$PROJECT_DIR$/src/day10/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/sort/SelectionSort.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 정렬">
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +93,7 @@
     "애플리케이션.DancerMain.executor": "Run",
     "애플리케이션.DataType.executor": "Run",
     "애플리케이션.DogMain.executor": "Run",
+    "애플리케이션.InsertionSort.executor": "Run",
     "애플리케이션.ListMain.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.Main2.executor": "Run",
@@ -106,6 +108,8 @@
     "애플리케이션.SelectionSort.executor": "Run",
     "애플리케이션.StdIO.executor": "Run",
     "애플리케이션.Test.executor": "Run",
+    "애플리케이션.TryExample1.executor": "Run",
+    "애플리케이션.TryExample2.executor": "Run",
     "애플리케이션.TypeCasting.executor": "Run",
     "애플리케이션.Variable.executor": "Run",
     "애플리케이션.day07.encap.Main.executor": "Run",
@@ -140,7 +144,7 @@
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz2" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.InsertionSort">
+  <component name="RunManager" selected="애플리케이션.TryExample2">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.sort.BubbleSort" />
       <module name="java-study202404" />
@@ -180,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day10.inter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.inter.Main" />
+    <configuration name="TryExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample1" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.inter.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day10.inter.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.inter.practice.Main" />
+    <configuration name="TryExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample2" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.inter.practice.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.TryExample2" />
+        <item itemvalue="애플리케이션.TryExample1" />
         <item itemvalue="애플리케이션.InsertionSort" />
         <item itemvalue="애플리케이션.SelectionSort" />
         <item itemvalue="애플리케이션.BubbleSort" />
-        <item itemvalue="애플리케이션.day10.inter.practice.Main" />
-        <item itemvalue="애플리케이션.day10.inter.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -224,14 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00014" summary="# 배열복사, push, pop">
-      <option name="closed" value="true" />
-      <created>1712544731611</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1712544731611</updated>
     </task>
     <task id="LOCAL-00015" summary="# 배열 인덱스 삭제">
       <option name="closed" value="true" />
@@ -617,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713757123723</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="# 정렬">
+      <option name="closed" value="true" />
+      <created>1713757834638</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1713757834638</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -632,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 회원관리 시스템 - 회원정보 복구 풀이" />
     <MESSAGE value="# 접근제한자" />
     <MESSAGE value="# 캡슐화, 정보은닉" />
     <MESSAGE value="# 상속" />
@@ -657,7 +660,8 @@
     <MESSAGE value="# mediaplayer 연습문제" />
     <MESSAGE value="# mediaplayer 연습문제 풀이" />
     <MESSAGE value="# 버블정렬" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 버블정렬" />
+    <MESSAGE value="# 정렬" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 정렬" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
