@@ -33,7 +33,9 @@ public class TryExample2 {
             System.out.println("문자로 변환할 수 없는 숫자입니다.");
         } catch (ArithmeticException e) {
             System.out.println("0으로 나눌 수 없습니다.");
-//            e.printStackTrace(); // 에러 로그를 띄움(정상종료는 됨) - 개발 시에 유용
+            e.printStackTrace(); // 에러 로그를 띄움(정상종료는 됨) - 개발 시에 유용
+        } catch (Exception e) {
+            System.out.println("알 수 없는 에러입니다.");
         }
         System.out.println("프로그램 정상 종료!");
     }
