@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 자바표준 API - lang, time 패키지">
-      <change afterPath="$PROJECT_DIR$/src/day11/collection/list/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/AppleBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/BananaBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/generic/Peach.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 자바컬렉션, List">
+      <change afterPath="$PROJECT_DIR$/src/day11/collection/map/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/collection/set/SetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +108,7 @@
     "애플리케이션.Run.executor": "Run",
     "애플리케이션.ScannerPractice.executor": "Run",
     "애플리케이션.SelectionSort.executor": "Run",
+    "애플리케이션.SetExample.executor": "Run",
     "애플리케이션.StdIO.executor": "Run",
     "애플리케이션.StringBuilderTest.executor": "Run",
     "애플리케이션.SystemExample.executor": "Run",
@@ -154,7 +149,7 @@
       <recent name="C:\Users\SooHong Kim\Desktop\Coding\java-study202404\src\day08\static_\quiz2" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ListExample">
+  <component name="RunManager" selected="애플리케이션.MapExample">
     <configuration name="DateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day11.api.time.DateTime" />
       <module name="java-study202404" />
@@ -181,12 +176,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day11.api.lang.ObjectSample" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.collection.map.MapExample" />
       <module name="java-study202404" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.api.lang.*" />
+          <option name="PATTERN" value="day11.collection.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.collection.set.SetExample" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.collection.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,26 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day11.api.lang.SystemExample" />
-      <module name="java-study202404" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day11.api.lang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MapExample" />
+        <item itemvalue="애플리케이션.SetExample" />
         <item itemvalue="애플리케이션.ListExample" />
         <item itemvalue="애플리케이션.DateTime" />
         <item itemvalue="애플리케이션.StringBuilderTest" />
-        <item itemvalue="애플리케이션.SystemExample" />
-        <item itemvalue="애플리케이션.ObjectSample" />
       </list>
     </recent_temporary>
   </component>
@@ -238,14 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00020" summary="# 2차원 배열 Matrix">
-      <option name="closed" value="true" />
-      <created>1712628077395</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1712628077395</updated>
     </task>
     <task id="LOCAL-00021" summary="# method">
       <option name="closed" value="true" />
@@ -631,7 +618,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713837847324</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="# 자바컬렉션, List">
+      <option name="closed" value="true" />
+      <created>1713841421269</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1713841421269</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -646,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# static, Singleton" />
     <MESSAGE value="# static 연습문제" />
     <MESSAGE value="# protected" />
     <MESSAGE value="# final 필드" />
@@ -671,7 +665,8 @@
     <MESSAGE value="# 예외처리 - 도서관리 프로그램" />
     <MESSAGE value="# 자바표준 API - Object" />
     <MESSAGE value="# 자바표준 API - lang, time 패키지" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 자바표준 API - lang, time 패키지" />
+    <MESSAGE value="# 자바컬렉션, List" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 자바컬렉션, List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
