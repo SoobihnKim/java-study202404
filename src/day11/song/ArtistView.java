@@ -36,7 +36,6 @@ public class ArtistView {
                     System.out.println("# 메뉴를 잘못 선택했습니다.");
             }
         }
-
     }
 
     private static void searchArtist() {
@@ -47,19 +46,15 @@ public class ArtistView {
 
             // 노래목록 가져와서 출력
             Set<String> songList =  repository.getSongList(artistName);
-
             int num = 1;
             System.out.printf("# %s님의 노래목록\n", artistName);
             System.out.println("=============================");
             for (String song : songList) {
                 System.out.printf("# %d. %s\n", num++, song);
             }
-
         } else { // 없는 가수라면
             System.out.println("\n# 해당 가수는 등록되지 않았습니다.");
-
         }
-
     }
 
     // 1번 메뉴: 노래 등록에 대한 입출력 처리
@@ -85,7 +80,4 @@ public class ArtistView {
             }
         }
     }
-
-
-
 }

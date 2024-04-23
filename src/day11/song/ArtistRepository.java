@@ -11,14 +11,6 @@ public class ArtistRepository {
     // key: 가수 이름, value: 가수 객체(가수명, 노래리스트)
     private Map<String, Artist> artistMap = new HashMap<>();
 
-    // 가수 정보 생성
-    public void setArtistMap(Map<String, Artist> artistMap) {
-        this.artistMap = artistMap;
-    }
-
-    public Map<String, Artist> getArtistMap() {
-        return artistMap;
-    }
 
     public int count() {
         return artistMap.size();

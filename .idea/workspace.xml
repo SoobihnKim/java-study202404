@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 자바컬렉션, 제네릭">
-      <change afterPath="$PROJECT_DIR$/src/day11/song/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/song/ArtistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/song/ArtistView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/song/Run.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 노래관리 프로그램">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11/song/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/song/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11/song/ArtistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/song/ArtistRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,14 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00022" summary="# method quiz 풀이">
-      <option name="closed" value="true" />
-      <created>1712797457064</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1712797457064</updated>
     </task>
     <task id="LOCAL-00023" summary="# 객체지향">
       <option name="closed" value="true" />
@@ -629,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713847847380</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="# 노래관리 프로그램">
+      <option name="closed" value="true" />
+      <created>1713859428580</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1713859428580</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,7 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# protected" />
     <MESSAGE value="# final 필드" />
     <MESSAGE value="# final" />
     <MESSAGE value="# final quiz" />
@@ -669,7 +666,8 @@
     <MESSAGE value="# 자바표준 API - lang, time 패키지" />
     <MESSAGE value="# 자바컬렉션, List" />
     <MESSAGE value="# 자바컬렉션, 제네릭" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 자바컬렉션, 제네릭" />
+    <MESSAGE value="# 노래관리 프로그램" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 노래관리 프로그램" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
