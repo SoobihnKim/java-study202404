@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 파일 입출력 - 바이트 기반 클래스">
-      <change afterPath="$PROJECT_DIR$/src/day12/io/textstream/FileReaderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/io/textstream/FileWriterExample.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 파일 입출력 - 텍스트 기반 클래스">
+      <change afterPath="$PROJECT_DIR$/src/day12/io/obj/SaveSnack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/io/obj/Snack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/member/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/member/MemberView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +112,7 @@
     "애플리케이션.RandomExample.executor": "Run",
     "애플리케이션.Recursive.executor": "Run",
     "애플리케이션.Run.executor": "Run",
+    "애플리케이션.SaveSnack.executor": "Run",
     "애플리케이션.ScannerPractice.executor": "Run",
     "애플리케이션.SelectionSort.executor": "Run",
     "애플리케이션.SetExample.executor": "Run",
@@ -163,33 +160,7 @@
       <recent name="day12.io.bytestream" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="FileInputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.io.bytestream.FileInputExample" />
-      <module name="java-study202404" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.io.bytestream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileOutputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.io.bytestream.FileOutputExample" />
-      <module name="java-study202404" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.io.bytestream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.LoadSnack">
     <configuration name="FileReaderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day12.io.textstream.FileReaderExample" />
       <module name="java-study202404" />
@@ -216,6 +187,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoadSnack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day12.io.obj.LoadSnack" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day12.io.obj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day06.member.Main" />
       <module name="java-study202404" />
@@ -229,13 +213,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SaveSnack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day12.io.obj.SaveSnack" />
+      <module name="java-study202404" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day12.io.obj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.LoadSnack" />
+        <item itemvalue="애플리케이션.SaveSnack" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.FileReaderExample" />
         <item itemvalue="애플리케이션.FileWriterExample" />
-        <item itemvalue="애플리케이션.FileInputExample" />
-        <item itemvalue="애플리케이션.FileOutputExample" />
       </list>
     </recent_temporary>
   </component>
@@ -247,14 +244,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00025" summary="# 문자열 비교">
-      <option name="closed" value="true" />
-      <created>1712806841667</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1712806841667</updated>
     </task>
     <task id="LOCAL-00026" summary="# String 배열">
       <option name="closed" value="true" />
@@ -640,7 +629,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713921619777</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="# 파일 입출력 - 텍스트 기반 클래스">
+      <option name="closed" value="true" />
+      <created>1713924369620</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1713924369620</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -655,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# final quiz" />
     <MESSAGE value="# 상수" />
     <MESSAGE value="# 열거형(Enum)" />
     <MESSAGE value="# 다형성 기초" />
@@ -680,7 +676,8 @@
     <MESSAGE value="# 노래관리 프로그램" />
     <MESSAGE value="# 노래관리 프로그램(수정)" />
     <MESSAGE value="# 파일 입출력 - 바이트 기반 클래스" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 파일 입출력 - 바이트 기반 클래스" />
+    <MESSAGE value="# 파일 입출력 - 텍스트 기반 클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 파일 입출력 - 텍스트 기반 클래스" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
