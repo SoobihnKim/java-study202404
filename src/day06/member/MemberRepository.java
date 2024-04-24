@@ -1,5 +1,10 @@
 package day06.member;
 
+import day12.io.FileExample;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.Arrays;
 
 // 역할: 회원 배열을 관리하는 역할 - 회원 데이터 저장소
@@ -50,6 +55,57 @@ public class MemberRepository {
 //        members = temp;
 
         members.push(newMember);
+
+        // 회원정보 텍스트 파일에 저장하기
+        try (FileWriter fw = new FileWriter(FileExample.ROOT_PATH + "/hello/member.txt", true)) { // true 쓰면 기존정보 그대로 유지
+
+            String newMemberInfo = String.format("%s,%s,%s,%s,%d\n",
+                    newMember.email, newMember.memberName,
+                    newMember.password, newMember.gender, newMember.age);
+
+            fw.write(newMemberInfo);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    // 회원 정보 세이브파일 불러오기
+    public void loadFile() {
+        String targetPath = FileExample.ROOT_PATH + "/hello/member.txt";
+
+        try (FileReader fr = new FileReader(targetPath)) {
+
+            // 보조 스트림 활용
+            // 텍스트를 라인단위로 읽어들이는 보조스트림
+            BufferedReader br = new BufferedReader(fr);
+
+            while (true) {
+                String s = br.readLine();
+//                System.out.println("s = " + s);
+
+                if (s == null) break;
+
+                String[] split = s.split(",");
+//                System.out.println(Arrays.toString(split));
+
+                // 읽어들인 회원정보로 회원 객체 생성
+                Member member = new Member(
+                        split[0],
+                        split[2],
+                        split[1],
+                        split[3],
+                        Integer.parseInt(split[4])
+                );
+
+                this.members.push(member);
+            }
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     /**
