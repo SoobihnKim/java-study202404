@@ -12,6 +12,8 @@ public class ArtistView {
     // 프로그램 실행
     public static void start() {
 
+        repository.load();
+
         while (true) {
             System.out.println("\n****** 음악 관리 프로그램 ******");
             System.out.printf("# 현재 등록된 가수: %d 명\n", repository.count());
@@ -79,5 +81,11 @@ public class ArtistView {
                 System.out.printf("\n# [%s]곡은 이미 등록된 노래입니다.\n", songName);
             }
         }
+
+        // 등록된 내용 세이브파일에 저장하기
+        repository.save();
+
+
+
     }
 }
