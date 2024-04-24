@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 파일 입출력 - 노래관리 프로그램">
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/AddCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/FrenchRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/inner/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/lambda/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/lambda/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/lambda/FilterApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/lambda/Main.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# 내부 클래스, 익명 클래스, 람다 기초">
+      <change afterPath="$PROJECT_DIR$/src/day12/lambda/ApplePredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/lambda/AppleWeightPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/lambda/GenericFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/lambda/GenericPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/lambda/MappingApple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12/lambda/FilterApple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12/lambda/FilterApple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12/lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12/lambda/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -154,6 +152,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="day12.lambda" />
       <recent name="day10.inter.practice" />
       <recent name="day09.book" />
       <recent name="day08.enum_.quiz" />
@@ -254,14 +253,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00028" summary="# this">
-      <option name="closed" value="true" />
-      <created>1712890723414</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1712890723414</updated>
     </task>
     <task id="LOCAL-00029" summary="# 회원관리 시스템 - 회원정보 객체 설계">
       <option name="closed" value="true" />
@@ -647,7 +638,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713928663944</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="# 내부 클래스, 익명 클래스, 람다 기초">
+      <option name="closed" value="true" />
+      <created>1713938269368</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1713938269368</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -662,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 다형성 기초" />
     <MESSAGE value="# 타입 캐스팅" />
     <MESSAGE value="# 다형성 연습문제" />
     <MESSAGE value="# Book 연습문제" />
@@ -687,7 +685,8 @@
     <MESSAGE value="# 파일 입출력 - 텍스트 기반 클래스" />
     <MESSAGE value="# 파일 입출력" />
     <MESSAGE value="# 파일 입출력 - 노래관리 프로그램" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 파일 입출력 - 노래관리 프로그램" />
+    <MESSAGE value="# 내부 클래스, 익명 클래스, 람다 기초" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 내부 클래스, 익명 클래스, 람다 기초" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
