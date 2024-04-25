@@ -71,10 +71,12 @@ public class Mapping {
 
         List<SimpleDish> simpleDishList = menuList
                 .stream()
-                .map(dish -> new SimpleDish(dish))
+//                .map(dish -> new SimpleDish(dish))
+                .map(SimpleDish::new)
                 .collect(Collectors.toList());
 
         simpleDishList.forEach(sd -> System.out.println(sd));
+//        simpleDishList.forEach(System.out::println);
 
         /*
             메뉴 목록에서 칼로리가 500칼로리보다 큰
@@ -87,7 +89,8 @@ public class Mapping {
         System.out.println("==========================================");
         List<DishDetail> dishDetailList = menuList.stream()
                 .filter(d -> d.getCalories() > 500)
-                .map(dish -> new DishDetail(dish))
+//                .map(dish -> new DishDetail(dish))
+                .map(DishDetail::new)
                 .collect(Collectors.toList());
 
         System.out.println("dishDetailList = " + dishDetailList);
