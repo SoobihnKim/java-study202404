@@ -10,6 +10,7 @@ public class SimpleDish {
         this.calories = calories;
     }
 
+    // 4종류에서 2종류만 추출
     public SimpleDish(Dish dish) {
         this.name = dish.getName();
         this.calories = dish.getCalories();
