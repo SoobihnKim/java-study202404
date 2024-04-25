@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# stream 탐색, 정렬">
-      <change afterPath="$PROJECT_DIR$/src/day12/stream/quiz1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/stream/quiz1/Trader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/stream/quiz1/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/stream/quiz2/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/stream/quiz2/Destination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/stream/quiz2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/stream/quiz2/Traveler.java" afterDir="false" />
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# stream 연습문제 1, 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day12/stream/quiz2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12/stream/quiz2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +170,7 @@
       <recent name="day12.io.bytestream" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day12.stream.quiz1.Main">
+  <component name="RunManager" selected="애플리케이션.day12.stream.quiz2.Main">
     <configuration name="Finding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day12.stream.Finding" />
       <module name="java-study202404" />
@@ -244,8 +238,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.day12.stream.quiz1.Main" />
         <item itemvalue="애플리케이션.day12.stream.quiz2.Main" />
+        <item itemvalue="애플리케이션.day12.stream.quiz1.Main" />
         <item itemvalue="애플리케이션.Sorting" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Finding" />
@@ -260,14 +254,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00033" summary="# 회원관리 시스템 - 회원 수정, 삭제">
-      <option name="closed" value="true" />
-      <created>1713250462212</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1713250462212</updated>
     </task>
     <task id="LOCAL-00034" summary="# 회원관리 시스템 - 회원정보 복구">
       <option name="closed" value="true" />
@@ -653,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714006881690</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="# stream 연습문제 1, 2">
+      <option name="closed" value="true" />
+      <created>1714023228854</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1714023228854</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -668,7 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 도서관리 프로그램(수정)" />
     <MESSAGE value="# 추상 클래스, 추상 메서드, 인터페이스" />
     <MESSAGE value="# 인터페이스" />
     <MESSAGE value="# mediaplayer 연습문제" />
@@ -693,7 +686,8 @@
     <MESSAGE value="# # stream - filter, map" />
     <MESSAGE value="# mapping" />
     <MESSAGE value="# stream 탐색, 정렬" />
-    <option name="LAST_COMMIT_MESSAGE" value="# stream 탐색, 정렬" />
+    <MESSAGE value="# stream 연습문제 1, 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="# stream 연습문제 1, 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
