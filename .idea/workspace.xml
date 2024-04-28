@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# stream 연습문제 1, 2">
+    <list default="true" id="b600853d-fa0a-42f2-8e11-55c3d1667b7e" name="변경" comment="# stream 연습문제 풀이정리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day12/stream/quiz2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day12/stream/quiz2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SooHong Kim/Desktop/ditto",
     "onboarding.tips.debug.path": "C:/Users/SooHong Kim/Desktop/Coding/java-study202404/src/Main.java",
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.0",
@@ -254,14 +254,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712277966511</updated>
-    </task>
-    <task id="LOCAL-00034" summary="# 회원관리 시스템 - 회원정보 복구">
-      <option name="closed" value="true" />
-      <created>1713257327494</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1713257327494</updated>
     </task>
     <task id="LOCAL-00035" summary="# 회원관리 시스템 - 회원정보 복구(수정)">
       <option name="closed" value="true" />
@@ -647,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714023228854</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="# stream 연습문제 풀이정리">
+      <option name="closed" value="true" />
+      <created>1714032889894</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1714032889894</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -662,7 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 추상 클래스, 추상 메서드, 인터페이스" />
     <MESSAGE value="# 인터페이스" />
     <MESSAGE value="# mediaplayer 연습문제" />
     <MESSAGE value="# mediaplayer 연습문제 풀이" />
@@ -687,7 +686,8 @@
     <MESSAGE value="# mapping" />
     <MESSAGE value="# stream 탐색, 정렬" />
     <MESSAGE value="# stream 연습문제 1, 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="# stream 연습문제 1, 2" />
+    <MESSAGE value="# stream 연습문제 풀이정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="# stream 연습문제 풀이정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -33,7 +33,5 @@ public class Sorting {
                 .limit(3)
                 .collect(Collectors.toList());
         System.out.println("dishList = " + dishList);
-
-
     }
 }
